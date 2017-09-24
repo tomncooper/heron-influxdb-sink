@@ -25,8 +25,14 @@ hs_err_pid*
 .classpath
 .project
 .settings/
+
+# Maven build folder
 target/
 
 #Vim files
 *.swp
 *.swo
+
+# IDEA files
+*.iml
+/.idea

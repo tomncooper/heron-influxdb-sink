@@ -1,0 +1,11 @@
+sinks:
+  - influxdb-sink
+
+# Config for the InfluxDB sink
+influxdb-sink:
+    class: uk.org.tomcooper.heron.InfluxDBSink    
+    flush-frequency-ms: 60000 # One min in ms
+    sink-restart-attempts: -1 # Forever
+    influx-host: http://localhost
+    influx-port: 8086
+    influx-db-name: heron

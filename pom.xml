@@ -2,13 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>uk.org.tomcooper</groupId>
-  <artifactId>heronInfluxdb</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>uk.org.tomcooper.heron</groupId>
+  <artifactId>InfluxDBSink</artifactId>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
-  <name>heronInfluxdb</name>
-  <url>http://maven.apache.org</url>
+  <name>InfluxDBSink</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,9 +24,9 @@
  	<dependency>
   		<groupId>com.twitter.heron</groupId>
   		<artifactId>heron-spi</artifactId>
-		<version>0.15.0</version>
+		<version>0.15.2</version>
 	</dependency>
-    
+
     <dependency>
        <groupId>org.influxdb</groupId>
        <artifactId>influxdb-java</artifactId>
